@@ -83,7 +83,5 @@ app.get('/:titulo', (req, res) => {
 
 })
 });
-
 app.listen(5000, function () {
-  console.log('Server started on port 5000');
 });
